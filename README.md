@@ -39,9 +39,8 @@ python -m training.train
 uvicorn serving_app.main:app --host 0.0.0.0 --port 8011
 # docs: http://localhost:8011/docs
 ```
-## Endpoints
-## Endpoints
 
+## Endpoints
 - `GET /openapi.json` → OpenAPI schema
 - `GET /health`  → `{"ok": true, "model_loaded": true, "version": "0.1.0"}`
 - `GET /version` → `{"version": "0.1.0"}`
@@ -149,6 +148,3 @@ A lightweight GitHub Actions workflow (.github/workflows/ci.yml) installs deps, 
 
 
 
-
-## License
-MIT — see [LICENSE](LICENSE).
