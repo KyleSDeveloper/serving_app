@@ -46,6 +46,16 @@ uvicorn serving_app.main:app --host 0.0.0.0 --port 8011
 - `POST /predict` → predict a single row
 - `POST /predict_batch` → predict many rows
 
+## CI
+
+A lightweight GitHub Actions workflow (.github/workflows/ci.yml) installs deps, boots the API, and smoke-tests /health. Extend it with linting, unit tests, or load tests as you grow.
+
+## Notes / Next steps
+- Swap the demo Iris model with your data & pipeline.
+- Add stricter input validation as features evolve.
+- Add logging/metrics (e.g., request IDs, Prometheus) for production.
+- If you need auth/rate limits, add a header check + token bucket.
+
 
 
 
