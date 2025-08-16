@@ -39,6 +39,16 @@ python -m training.train
 uvicorn serving_app.main:app --host 0.0.0.0 --port 8011
 # docs: http://localhost:8011/docs
 ```
+## Endpoints
+
+- `GET /health`  → `{"ok": true, "model_loaded": true, "version": "0.1.0"}`
+- `GET /version` → `{"version": "0.1.0"}`
+- `POST /predict` → predict a single row
+- `POST /predict_batch` → predict many rows
+
+
+
+
 
 
 
