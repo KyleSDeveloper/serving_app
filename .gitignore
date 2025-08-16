@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+.eggs/
+.env
+.venv
+venv/
+# Conda
+*.conda-env
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+# Models/artifacts (adjust to your project)
+models/
+artifacts/
