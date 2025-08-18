@@ -1,8 +1,11 @@
-# Serving App (FastAPI + scikit-learn)
+# Serving App  
+🚀 A production-style ML API built with **FastAPI** + **scikit-learn**
+
+[![CI](https://github.com/KyleSDeveloper/serving_app/actions/workflows/ci-pr.yml/badge.svg)](https://github.com/KyleSDeveloper/serving_app/actions/workflows/ci-pr.yml)
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-ready-teal)
 ![Docker](https://img.shields.io/badge/Docker-ready-informational)
-[![CI](https://github.com/KyleSDeveloper/serving_app/actions/workflows/ci-pr.yml/badge.svg)](https://github.com/KyleSDeveloper/serving_app/actions/workflows/ci-pr.yml)
+
 
 A tiny, production-style ML serving skeleton.  
 Trains a scikit-learn classifier (Iris demo) and serves predictions via FastAPI.
