@@ -19,3 +19,4 @@ venv/
 # Models/artifacts (adjust to your project)
 models/
 artifacts/
+.coverage
